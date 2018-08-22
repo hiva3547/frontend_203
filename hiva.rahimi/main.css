@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: yekan;
+   
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+a{
+    color: white;
+}
+a:hover {
+      
+     text-decoration: none; 
+}
+li{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('fonts/BYekan.eot');
+    src: url('fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BYekan.woff') format('woff'),
+         url('fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+<----------------------------header-------------------------->
+.logotext{
+    padding-left: 280px;
+    color: #e94a35;
+    font-size:18px;
+    display: block;
+}
+.header{
+    padding-top: 10px;
+}
+.header-item{
+    color: black;
+    padding: 0px 0px 0px 20px;
+}
+.header-log{
+    color: white;
+   }
+.header-log:hover{
+    color: white;
+}
+.h-btn{
+    border-radius: 3px;
+    font-size: .9em;
+    margin: 6px;
+    width: 60px;
+    height: 30px;
+   background-color:rgba(233,74,53,0.8);;
+}
+.h-btn:hover {
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+.navbar-nav>li {
+    float: right;
+}
+.nav>li>a:hover {
+    background-color:darksalmon;
+    color: white
+}
+
+.mainmenu{
+    float: right;
+   
+}
+.lux:before {
+    
+    text-shadow: 0 1px 9px #7e0fb5;
+    color: #f3ecf7;
+    margin-left: 0;
+}
+#parent1 {
+    position: relative;
+    
+}
+
+#child1 {
+    position: absolute;
+    top: 7px;
+    right: 600px;
+}
+<!---------------------------------------------------------------------css-tour---------------------------------------------------------------->
+.carousel-inner {
+
+    margin: 12px;
+}
+.img-responsive{
+    width: 290px;
+    height: 130px;
+    
+}
+.itemslid{
+    background-color: rgba(233,74,53,0.8);
+    width: 262px;
+    height: 36px;
+    margin-left: 0.5;
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px
+}
+.dot {
+    height: 41px;
+    width: 42px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-left: 48px;
+    line-height: 10px;
+     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.item1{
+    float: left;
+    padding-top: 7px;
+}
+.item2{
+    float: right;
+    padding-top: 7px;
+}
+.item3{
+    text-align: center;
+    padding-left: 80px;
+}
+.item4{
+    color:#4caf50; 
+
+}
+hr{
+    border-top: 1px solid #aca9a9;
+}
+.kadr{
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(215, 214, 214, 0);
+    
+}
+<!---------------------------------------------------------------------css-shahr---------------------------------------------------------------->
+.b{
+    display: inline;
+    margin-left: 10px;
+}
+.one{
+    border: 2px solid red;
+}
+.two{
+    border: 2px solid blue;
+}
+<!---------------------------------------------------------------------css-naghd-barresi-------------------------------------------------------->
+.rounded-circle{
+        width: 32px;
+    height: 30px;
+    margin: 0 auto 3px;
+    border-radius: 50%;
+    border: solid 1px #eee;
+}
+.demo {
+    list-style-type: none;
+   
+}
+.dc {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border : 1px solid red;
+    
+}
+.dom {
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    
+}
+
+.btn-orange{
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+    border: 0 none;
+    font-weight: 700;
+    width: 40px;
+    color: #fff;
+    padding: 4px;
+    margin: 3px 0;
+    height: 28px;
+    line-height: 24px;
+    font-size: 16px;
+    background: #ed6e5d;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+}
+.hotelScore .score {
+    background-size: 15px;
+    height: 16px;
+    background-position: 0 bottom;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://lastsecond.ir/site/img/rating-org1.png) repeat 0 top;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.card .rounded-circle, .rounded-circle {
+    border-radius: 50% !important;
+    overflow: hidden;
+    
+}
+tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+ .score {
+    width: 85px;
+    height: 17px;
+    overflow: hidden;
+    background: url(https://lastsecond.ir/site/img/rating-org1.png) repeat 0 top;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.hotelScore, .score {
+    width: 85px;
+    height: 17px;
+    overflow: hidden;
+    background: url(https://lastsecond.ir/site/img/rating-org1.png) repeat 0 top;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.box{
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    
+}
+#parent2 {
+    position: relative;
+    
+}
+
+#child2 {
+    position: absolute;
+    top: 7px;
+   
+}
+.h-naghd{
+    color: white;
+    padding: 60px 5px 40px 50px;
+}
+.btn-n{
+    background-color: #2991cc;
+    color: white;
+    padding: 6px;
+    margin-left: 70;
+}
+<----------------------------------------------------------------css-kahbar--------------------------------------------------------------------->
+.bord{
+    border: 2px solid red;
+}
+.img-news{
+height: 428;box-shadow: 0 4px 17px 0 rgba(0,0,0,0.2), 0 -3px 20px 0 rgba(0,0,0,0.19);
+
+}
+.item-news{
+    
+    height: 646px;
+    display: inline-table;
+    
+    
+}
+.news {
+    padding: 0;
+    direction: rtl;
+    float: right;
+    padding-top: 5px;
+}
+.n-img{
+    width: 100px;
+    height: 95px;
+    
+}
+.tr-news{
+    height: 108px;
+}
+.n-i{
+    float: right;
+    width: 227px;
+    padding-right: 5px;
+    direction: rtl;
+}
+.n-item-li{
+    font-size: 10px;
+    display: -webkit-box;
+    padding-right: 5;
+    
+}
+<----------------------------------------------------------------css-safarname------------------------------------------------------------------>
+.logbook li.col-md-6 .borerbox {
+    border: solid 1px #eae8e8;
+    border-radius: 2px;
+    width: 100%;
+    padding: 0 2px;
+    height: 28px;
+    line-height: 26px;
+    overflow: hidden;
+    position: relative;
+    transition: all .8s;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: arial;
+    width: 228px;
+    height: 400px;
+   
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.b {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: white;
+  background-color: #ed6e5d;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+    height: 30px;
+  font-size: 18px;
+}
+
+
+.b:hover, a:hover {
+  opacity: 0.7;
+}
+.c{
+    width: 70px;
+    height: 70px;
+}
+#parent3 {
+    position: relative;
+    
+}
+
+#child3 {
+    position: absolute;
+    top: 100px;
+    left: 85px;
+   
+}
+<!-----------------------------------------------------------------css-mobile------------------------------------------------------------------->
+
+.m {
+   width: 500px;
+    text-align: center;
+    
+}
+.co-m:hover {
+    color: black;
+    color: red;
+}
+.co-m {
+    color: black;
+}
+li.lm{
+    background-color:crimson;
+    display: inline-block;
+    border: solid 1px #ccc;
+    padding: 10px;
+    background-color: #fff !important;
+    color: black;
+    width: 150px;
+    text-decoration: none;
+    margin-left: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+li.lm:hover {
+    color: red;
+}
+
+<!-----------------------------------------------------------------css-footer------------------------------------------------------------------->
+
+.parallax {
+   
+    background-image:url(images/footer.jpg);
+
+  
+    height: 100%; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+   position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 660px;
+}
+.in-foot{
+    background-image:url(images/footer-w.png);
+    height: 100%; 
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    position: relative;
+   
+    margin-bottom: -370px;
+    
+}
+ul.u{
+    padding-right: 35px;
+    text-decoration: none;
+}
+li.f-item {
+    text-decoration: none;
+    color: black;
+    direction: ltr;
+    line-height: 25px;
+    list-style-type: none;
+}
+li.part{
+    margin-right: 20px;
+}
+.f-part{
+       background-color: #e8e8e8;
+    border: 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    outline: 0;
+    height: 2.5em;
+    width: 60%;
+    font-size: 1em;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s;
+
+}
+li.so{
+        border-radius: 50%;
+    background-color: #3b5998;
+    width: 50;
+    height: 50;
+    text-align: center;
+    padding-top: 15;
+    margin-right: 10px;
+}
+}
+<----------------------------endheader-------------------------->
+
+

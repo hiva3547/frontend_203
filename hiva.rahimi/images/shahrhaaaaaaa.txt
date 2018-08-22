@@ -1,0 +1,19 @@
+<h2><p class="title-one" style="color: red;text-align: center">‘Â— Â«</p></h2>
+    <div class="container-fluid" style="height: 410px">
+        <div class="row">
+            
+            <div class="col-md-1" style="height: 200px;"><img src="g.jpeg" style="width: 100%;height: 175px" ></div>
+            
+             <div class="col-md-3" style="height: 200px;display: inline-block">
+                <img src="a.jpeg" style="width: 50%"><img src="b.jpeg" style="width: 50%">
+            </div>
+            
+             <div class="col-md-4" style="height: 200px;"><img src="k.jpg" style="width: 100%;height:350px"></div>
+            
+             <div class="col-md-3" style="height: 200px;">
+            <img src="e.jpeg" style="width: 50%"><img src="i.jpeg" style="width: 50%">
+            </div>
+            
+            <div class="col-md-1" style="height: 200px;"><img src="h.jpeg" style="width: 100%;height: 100%px" ></div>
+        </div>
+    </div>

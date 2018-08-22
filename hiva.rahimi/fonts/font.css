@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Secesja';
+  src: url('Secesja.eot');
+  src: url('Secesja.woff2') format('woff2'),
+       url('Secesja.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SecesjaPL';
+  src: url('SecesjaPL.woff') format('woff'),
+       url('SecesjaPL.ttf') format('truetype'),
+       url('SecesjaPL.svg#SecesjaPL') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

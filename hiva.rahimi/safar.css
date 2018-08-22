@@ -1,0 +1,27 @@
+.se-par{
+    width: 1269;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    direction: ltr;
+    margin-left: 45;
+}
+.item-social{
+    border-radius: 50%;
+    width: 35;
+    height: 35;
+    margin: 4;
+    padding: 14;
+}
+input.in-parvaz {
+    position: relative;
+    vertical-align: top;
+    background-color: transparent;
+    direction: ltr;
+    float: left;
+    padding: 15;
+}
+
+
+
+
